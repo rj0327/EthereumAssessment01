@@ -30,7 +30,6 @@ No specific file or folder modifications are needed. Ensure your Solidity enviro
 
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.26;
-
 contract MyToken {
     string public tokenname = "ROHAN";
     string public tokenabbrv = "RJ";
