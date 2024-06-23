@@ -27,10 +27,10 @@ No specific file or folder modifications are needed. Ensure your Solidity enviro
 2. Create a new file and paste the Solidity code for the MyToken contract.
 3. Compile the contract by selecting the correct compiler version (0.8.26) and clicking "Compile".
 4. Deploy the contract by navigating to the "Deploy & Run Transactions" tab, selecting the contract, and clicking "Deploy".
-
+'''solidity
 // SPDX-License-Identifier: MIT
-
 pragma solidity 0.8.26;
+
 contract MyToken {
     string public tokenname = "ROHAN";
     string public tokenabbrv = "RJ";
@@ -50,7 +50,7 @@ contract MyToken {
         }
     }
 }
-
+'''
 5. Interact with the contract by calling the 'mint' and 'burn' functions:
 * To mint tokens:
 MyToken.mint(address _address, uint _value)
